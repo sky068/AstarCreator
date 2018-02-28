@@ -1,3 +1,3 @@
-# hello-world
-Hello world new project template.
-![]("./astar.git")
+# Astar
+在cocosreator里使用astar算法寻路.
+![](./astar.gif)
