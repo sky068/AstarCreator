@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="10" height="15" tilewidth="32" tileheight="32" infinite="0" nextobjectid="4">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="48" columns="8">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="luojikuai" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="2" columns="2">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="isBarrier" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="back" width="10" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYCKAmYGYE4hFgFgIBxYFYm6oOhCtgQNzoqnTA2I5NGyARZ08FCtAMS51MDP0iFQnR0CdPhQTUkeseXLQcFCDYhgfn3nImBJ12MIaWZ0MA+40IAtVJ8iAOw3AsDAQAwCD4gxr
+  </data>
+ </layer>
+ <objectgroup name="sprite">
+  <object id="1" x="128" y="384" height="32">
+   <ellipse/>
+  </object>
+  <object id="2" name="startPosition" x="108" y="108" width="13" height="12"/>
+  <object id="3" name="endPosition" x="137" y="395" width="15" height="14"/>
+ </objectgroup>
+ <layer name="logic" width="10" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwzZGBgMBxgjA6I1UPILGqoQ7ePGvaS6g90s8lVR25Yk4MBmkYVcQ==
+  </data>
+ </layer>
+</map>

@@ -1,2 +1,2 @@
-# AstarCreator
-在cocosCreator里使用a星寻路
+# hello-world
+Hello world new project template.
